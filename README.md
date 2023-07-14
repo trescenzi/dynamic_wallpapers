@@ -7,7 +7,7 @@ Roughly the process is as follows:
 
 ## Example Images
 
-Because they are super huge these images are stored on my Dropbox. I've made example dynamic wallpapers out of the JWST images for The Pillars of Creation and Rho Ophiuchi. You can [download them here](https://www.dropbox.com/scl/fo/crh5rvs8vpfpurm17wnwz/h?rlkey=kin2v0gzw3txosv2bze3tlhlo&dl=0)
+Because they are super huge these images are stored on Dropbox. I've made example dynamic wallpapers out of the JWST images for The Pillars of Creation and Rho Ophiuchi. You can [download them here](https://www.dropbox.com/scl/fo/crh5rvs8vpfpurm17wnwz/h?rlkey=kin2v0gzw3txosv2bze3tlhlo&dl=0).
 
 ## create_images
 
