@@ -5,9 +5,13 @@ Roughly the process is as follows:
 1. Use [Image Magick](https://imagemagick.org/) to cut the photo up into a bunch of different images.
 1. Use [Equinox](https://equinoxmac.com) to turn the images into a dynamic wallpaper.
 
-## Example Images
+## Example Wallpapers
 
 Because they are super huge these images are stored on Dropbox. I've made example dynamic wallpapers out of the JWST images for The Pillars of Creation and Rho Ophiuchi. You can [download them here](https://www.dropbox.com/scl/fo/crh5rvs8vpfpurm17wnwz/h?rlkey=kin2v0gzw3txosv2bze3tlhlo&dl=0).
+
+Rho Ophiuchi             |  Pillars of Creation
+:-------------------------:|:-------------------------:
+![](https://live.staticflickr.com/65535/53040527259_43692103bd_c.jpg)  |  ![](https://live.staticflickr.com/65535/52439693830_516f44ba03_b.jpg)
 
 ## create_images
 
