@@ -5,6 +5,10 @@ Roughly the process is as follows:
 1. Use [Image Magick](https://imagemagick.org/) to cut the photo up into a bunch of different images.
 1. Use [Equinox](https://equinoxmac.com) to turn the images into a dynamic wallpaper.
 
+## Example Images
+
+Because they are super huge these images are stored on my Dropbox. I've made example dynamic wallpapers out of the JWST images for The Pillars of Creation and Rho Ophiuchi. You can [download them here](https://www.dropbox.com/scl/fo/crh5rvs8vpfpurm17wnwz/h?rlkey=kin2v0gzw3txosv2bze3tlhlo&dl=0)
+
 ## create_images
 
 `create_images.sh` is a simple script that'll automatically cut an image up into a specified number of images with a 16:9 aspect ratio. It calculates the height the image needs to be cropped to in order get a 16:9 ratio. You must specify the image and you can optionally specify the number of times to cut up the image as well as a custom aspect ratio. It's pretty darn slow with big images.
@@ -20,14 +24,10 @@ This script assumes that you have Image Magick installed and that the `magick` a
 
 ### Examples
 
-**Create 24 16:9 crops of rho_ophiuchi.png**
-`sh create_images.sh rho_ophiuchi.png`
+**Create 24 16:9 crops of rho_ophiuchi.png**: `sh create_images.sh rho_ophiuchi.png`
 
-**Create 12 16:9 crops of rho_ophiuchi.png**
-`sh create_images.sh rho_ophiuchi.png 12`
+**Create 12 16:9 crops of rho_ophiuchi.png**: `sh create_images.sh rho_ophiuchi.png 12`
 
-**Create 12 10:9 crops of rho_ophiuchi.png**
-`sh create_images.sh rho_ophiuchi.png 12 10`
+**Create 12 10:9 crops of rho_ophiuchi.png**: `sh create_images.sh rho_ophiuchi.png 12 10`
 
-**Create 12 10:10 crops of rho_ophiuchi.png**
-`sh create_images.sh rho_ophiuchi.png 12 10 10`
+**Create 12 10:10 crops of rho_ophiuchi.png**: `sh create_images.sh rho_ophiuchi.png 12 10 10`
